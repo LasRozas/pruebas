@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/estilos-bis.css">
+	</head>
+<body>
+<div id="ContenedorPagina">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="dudas.html">Dudas</a></li>
+				<li><a href="#">Condiciones de contratación</a><li>
+			</ul>
+		</nav>
+		<p class="p-especial"><span class="color">LANDING PAGE:</span> IMAGEN DE MARCA</p>
+		
+		<div class="ImgAbsolute">
+						
+		</div>
+
+		<h1>Creamos tu Landing page <span class="color">para que ganes dinero</span></h1>
+		<div class="boton-contratar">
+			<a href="#">Contratar</a>
+		</div>
+	</header>
+	<main>
+
+		<section class="Consultas">
+			<h1>Consultas</h1>
+			<p>Si tienes cualquier dudas puedes completar el siguiente formulario. Para otras consultas contacta con nosotros mediante el teléfono o correo electrónico que figura más abajo</p>
+			
+			<div class="Fila">
+				<div class="Columna">
+					<h2>Formulario de consulta sobre dudas</h2>
+					<form action="http://www.form/process.php"
+						  method="get">
+						<p class="FilaFormulario"><span class="obligatorio">Los campos con un * son obligatorios.</span></p>
+						<p class="FilaFormulario">
+							<label for="nombre">
+								<span class="obligatorio">*</span> Nombre:
+							</label>
+							<input type="text"
+				   				   name="nombre"
+				   				   id="nombre"
+				   				   placeholder="Inserta tu nombre"
+				   				   required
+				   				   pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ ]{2,20}">
+						</p>
+						<p class="FilaFormulario">
+							<label for="email">
+								<span class="obligatorio">* </span>E-mail:<span class="obligatorio"></span>
+							</label>
+							<input type="email"
+				   				   name="email"
+				   				   id="email"
+				   				   placeholder="Dinos tu e-mail de contacto"
+				   				   required>
+						</p>
+						<p class="FilaFormulario MargenSuperior">
+							<span class="obligatorio">* </span>Indique los servicios en los que está interesado: <br><br>
+							<input type="checkbox"
+				  				   name="publicidad"
+								   id="publicidad-videos"
+								   value="videos">
+							<label for="publicidad-videos">Publicidad con vídeos</label>
+
+							<input type="checkbox"
+								   name="publicidad"
+								   id="campañas-email"
+								   value="campañas-email">
+							<label for="campañas-email">Campañas E-mail</label>
+
+							<input type="checkbox"
+								   name="publicidad"
+								   id="posicionamiento-seo"
+								   value="posicionamiento-seo">
+							<label for="posicionamiento-seo">Posicionamiento SEO</label>
+
+							<input type="checkbox"
+								   name="publicidad"
+								   id="publicidad-sem"
+								   value="publicidad-sem">
+							<label for="publicidad-sem">Publicidad SEM</label>
+						</p>
+						
+						<p class="FilaFormulario MargenSuperior">
+							<label for="experiencia-previa">
+							<span class="obligatorio">*</span> Indique la experiencia previa de su empresa con campañas de márketing online:
+							</label><br><br>
+							<select name="experiencia-previa" id="experiencia-previa" required>
+								<option value="" selected>Elige opción:</option>
+								<option value="ninguna-experiencia">Ninguna-experiencia</option>
+								<option value="publicidad-videos">Publicidad con vídeos</option>
+								<option value="campañas-email">Campañas de E-mail</option>
+								<option value="posicionamiento-seo">Posicionamiento SEO</option>
+								<option value="publicidad-sem">Publicidad SEM</option>
+								<option value="otras">Otras</option>
+							</select>
+						</p>
+						<p class="FilaFormulario MargenSuperior">
+							<label for="comentarios">Comentarios</label><br><br>
+							<textarea name="comentarios"
+					 				  id="comentarios"
+									  cols="30"
+									  rows="5"
+									  maxlength="250"
+									  placeholder="Escriba aquí lo que desea..."></textarea>
+						</p>
+						
+						<p class="FilaFormulario MargenSuperior">
+							<input type="checkbox"
+				  				   name="clausula"
+								   id="clausula"
+								   value="acepto-clausulas">
+							<label for="clausula">Acepto las claúsulas de protección de datos</label>
+
+
+						<p class="MargenSuperior">
+							<input type="submit" value="Enviar">
+						</p>	
+			
+
+
+  				  	</form>
+				</div>
+			</div>
+
+		</section>
+	
+	</main>
+</div>
+	<footer>
+		<p>© Información de Copyright</p>
+
+	</footer>
+	</div>
+</body>
+</html>
